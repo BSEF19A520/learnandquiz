@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A0F4A4"
+    tools:context=".MainActivity" layout_height="0dp" layout_width="0dp" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#60D6EC"
+        tools:layout_editor_absoluteX="-27dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/layouttitle"
+                android:layout_width="match_parent"
+                android:layout_height="239dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="@string/titleName"
+                android:textSize="48sp" />
+
+            <Button
+                android:id="@+id/learnbtn"
+                android:layout_width="341dp"
+                android:layout_height="89dp"
+                android:layout_marginLeft="6dp"
+                android:background="#4299B3"
+                android:backgroundTint="#FF42B3AF"
+                android:text="@string/Homebtn1"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/quizbtn"
+                android:layout_width="341dp"
+                android:layout_height="91dp"
+                android:layout_marginLeft="6dp"
+                android:backgroundTint="#428BB3"
+                android:text="@string/Homebtn2"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/githubbtn"
+                android:layout_width="343dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="6dp"
+                android:background="#FDD835"
+                android:backgroundTint="#36A5A1"
+                android:text="@string/Homebtn3"
+                android:textColor="#607D8B"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/learnList"
+                android:layout_width="343dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="6dp"
+                android:background="#FDD835"
+                android:backgroundTint="#36A5A1"
+                android:text="@string/Homebtn4"
+                android:textColor="#607D8B"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
