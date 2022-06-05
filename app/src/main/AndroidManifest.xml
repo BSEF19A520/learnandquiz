@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnAndQuiz">
         <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".AlphAdaptor"
             android:exported="false" />
         <activity

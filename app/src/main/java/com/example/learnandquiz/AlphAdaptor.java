@@ -48,4 +48,3 @@ public class AlphAdaptor extends ArrayAdapter<learning_list> {
 
     }
 }
-}
