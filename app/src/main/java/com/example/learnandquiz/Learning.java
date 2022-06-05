@@ -67,12 +67,12 @@ public class Learning extends AppCompatActivity implements View.OnClickListener 
         z = findViewById(R.id.Z);
         z.setOnClickListener(this);
     }
+
     @Override
     public void onClick(View v) {
         Intent intent;
 
-        switch(v.getId())
-        {
+        switch (v.getId()) {
             case R.id.A:
                 intent = new Intent(Learning.this, learning_images.class);
                 intent.putExtra("btnID", "A");
@@ -207,3 +207,4 @@ public class Learning extends AppCompatActivity implements View.OnClickListener 
                 throw new IllegalStateException("Unexpected value: " + v.getId());
         }
     }
+}

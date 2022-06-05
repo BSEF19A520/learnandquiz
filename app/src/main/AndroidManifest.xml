@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnAndQuiz">
         <activity
+            android:name=".learn_listView"
+            android:exported="false" />
+        <activity
+            android:name=".learning_list"
+            android:exported="false" />
+        <activity
             android:name=".learning_images"
             android:exported="false" />
         <activity
