@@ -27,7 +27,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent = new Intent(MainActivity.this, Learning.class);
                 startActivity(intent);
                 break;
-
+            case R.id.learnList:
+                intent = new Intent(MainActivity.this, learn_listView.class);
+                startActivity(intent);
+                break;
             default:
                 throw new IllegalStateException("Unexpected value: " + v.getId());
 

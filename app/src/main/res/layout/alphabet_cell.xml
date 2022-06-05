@@ -3,7 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".AlphAdaptor">
+    android:layout_height="match_parent">
 
+    <ImageView
+        android:id="@+id/cellimg"
+        android:layout_width="193dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/alph"
+        android:layout_width="131dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="164dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toStartOf="@+id/cellimg"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
